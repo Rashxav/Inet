@@ -5,7 +5,8 @@ import json
 import os
 
 from tkinter import ttk, messagebox, scrolledtext
-from reconnect.reconnect import reconnect
+from reconnect.phone_normalizer import PhoneNormalizer
+from reconnect.reconnect import reconnect, load_credentials
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from selenium.webdriver.chrome.options import Options as ChromeOptions

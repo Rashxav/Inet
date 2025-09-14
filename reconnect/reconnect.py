@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.edge.options import Options as EdgeOptions
 from selenium.common.exceptions import WebDriverException, TimeoutException
 from config.config import LOGIN_URL, PHONE_FIELD, PASSWORD_FIELD, LOGIN_BUTTON
-from phone_normalizer import PhoneNormalizer
+from .phone_normalizer import PhoneNormalizer
 
 
 CHECK_URL = "https://www.google.com"

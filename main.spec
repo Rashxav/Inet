@@ -3,7 +3,7 @@
 
 a = Analysis(
     ['main.py'],
-    pathex=[],
+    pathex=['reconnect'],
     binaries=[],
     datas=[],
     hiddenimports=[],
